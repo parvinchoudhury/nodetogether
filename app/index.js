@@ -1,7 +1,7 @@
 // index.js
 
-var Express = require('Express');
-var app = Express();
+var express = require('express');
+var app = express();
 
 app.get('/hello', function(request, response) {
   console.log("request to /hello");
